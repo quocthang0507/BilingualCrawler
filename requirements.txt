@@ -3,3 +3,5 @@ beautifulsoup4~=4.13.4
 termcolor~=3.1.0
 langdetect~=1.0.9
 tqdm~=4.67.1
+aiohttp~=3.12.14
+async-timeout~=5.0.1

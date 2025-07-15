@@ -43,7 +43,7 @@ def clean_text(text: str) -> str:
 
 
 def process_paragraph_pair(p1: BeautifulSoup, p2: BeautifulSoup) -> Tuple[str, str]:
-    """Process a pair of paragraphs and return Vietnamese-English pair if valid"""
+    """Process a pair of paragraphs and return a Vietnamese-English pair if valid"""
     text1 = clean_text(p1.get_text(strip=True))
     text2 = clean_text(p2.get_text(strip=True))
 
